@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-WeChat-Ollama — Python 版本
+WeChat-Ollama-Python 版本
 支持 Ollama 本地模型的微信机器人
 """
 
@@ -34,7 +34,7 @@ def interactive_setup(config):
     config['apiKey'] = 'ollama'
     config['baseUrl'] = os.getenv('OLLAMA_HOST', 'http://localhost:11434/v1')
     print(f"\n  [OK] Ollama configured with model: {model}\n")
-    print("  [INFO] You can change the model later by editing ~/.config/config.json\n")
+    print("  [INFO] You can change the model later by editing ./.config/config.json\n")
     return config
 
 # ---------- 登录 ----------
