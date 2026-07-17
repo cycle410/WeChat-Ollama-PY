@@ -1,6 +1,6 @@
 <div align="center">
 
-#WeChat-Ollama
+#WeChat-Ollama-PY
 
 
 </div>
